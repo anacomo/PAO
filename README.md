@@ -14,19 +14,24 @@ a. Objects
 - [X] University
 - [X] BookService - Singleton
 - [X] ReaderService - Singleton
-- [ ] AuthorService - Singleton
+- [X] AuthorService - Singleton
+- [X] SectionService - Singleton
+- [X] UniversityService - Singleton
 - [X] Menu
 
 b. Functionalities
 - [X] Add Book
 - [X] Add Reader
-- [ ] Add Author
+- [X] Add Author
+- [X] Add Section
+- [X] Add University
 - [X] Show Books
 - [X] Show Readers
-- [ ] Show Authors
-- [ ] Edit Book
-- [ ] Edit Reader
-- [ ] Edit Author
-- [X] Auto sort Books
-- [X] Auto sort Readers
-- [ ] Auto sort Authors
+- [X] Show Authors
+- [X] Show Sections
+- [X] Show Universities
+- [X] Sort Books
+- [X] Sort Readers
+- [X] Sort Authors
+- [X] Sort Sections
+- [X] Sort Universities

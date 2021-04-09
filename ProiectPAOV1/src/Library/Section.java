@@ -1,10 +1,14 @@
 package Library;
 
-public class Section {
+public class Section implements Comparable<Section>{
     private String name;
 
     public Section(String name) {
         this.name = name;
+    }
+
+    public Section (Section section) {
+        this.name = section.getName();
     }
 
     @Override
@@ -20,5 +24,10 @@ public class Section {
 
     public void setName(String name) {
         this.name = name;
+    }
+
+    @Override
+    public int compareTo(Section o) {
+        return this.name.compareTo(o.getName());
     }
 }

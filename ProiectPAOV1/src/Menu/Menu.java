@@ -1,10 +1,7 @@
 package Menu;
 
-import Library.Author;
-import Library.Book;
-import Library.Reader;
-import Service.BookService;
-import Service.ReaderService;
+import Library.*;
+import Service.*;
 
 import java.time.LocalDate;
 
@@ -17,5 +14,15 @@ public class Menu {
         BookService bs = BookService.getInstance();
         bs.addBook(new Book("How I met your Mother", new Author("Ted", "Moseby"), LocalDate.of(2020, 3, 1)));
         bs.showBooks();
+        AuthorService as = AuthorService.getInstance();
+        as.addAuthor(new Author("Anna", "Todd"));
+        as.showAuthors();
+        SectionService ss = SectionService.getInstance();
+        ss.addSection(new Section("Romance"));
+        ss.addSection(new Section("Travel"));
+        ss.showSections();
+        UniversityService us = UniversityService.getInstance();
+        us.addUniversity(new University("University of Bucharest"));
+        us.showUniversities();
     }
 }
