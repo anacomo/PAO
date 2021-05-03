@@ -4,39 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="48d7d486-9ec1-4452-a4c7-44c8cf2fca83" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProiectPAOV1.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProiectPAOV1/Library/Author.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProiectPAOV1/Library/Book.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProiectPAOV1/Library/Person.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProiectPAOV1/Library/Reader.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProiectPAOV1/Library/Section.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProiectPAOV1/Library/Student.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProiectPAOV1/Library/University.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProiectPAOV1/Menu/Menu.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProiectPAOV1/Service/AuthorService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProiectPAOV1/Service/BookService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProiectPAOV1/Service/ReaderService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProiectPAOV1/Service/SectionService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProiectPAOV1/Service/UniversityService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Library/Author.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Library/Book.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Library/Person.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Library/Reader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Library/Section.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Library/Student.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Library/University.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Menu/Menu.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Service/AuthorService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Service/BookService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Service/ReaderService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Service/SectionService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Service/UniversityService.java" beforeDir="false" />
-    </list>
+    <list default="true" id="48d7d486-9ec1-4452-a4c7-44c8cf2fca83" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -72,12 +40,12 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ProiectPAOV12" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunManager">
     <configuration name="Menu" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Menu.Menu" />
-      <module name="ProiectPAOV12" />
+      <module name="ProiectPAOV1" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Menu.*" />
@@ -88,25 +56,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="JetRunConfigurationType">
-      <module name="ProiectPAOV12" />
+      <module name="ProiectPAOV1" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="ProiectPAOV12" />
+      <module name="ProiectPAOV1" />
       <option name="filePath" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -131,7 +88,8 @@
       <workItem from="1617990669591" duration="3247000" />
       <workItem from="1617994119493" duration="785000" />
       <workItem from="1619884754087" duration="155000" />
-      <workItem from="1619888862005" duration="24437000" />
+      <workItem from="1619888862005" duration="24295000" />
+      <workItem from="1620064462443" duration="248000" />
     </task>
     <servers />
   </component>
