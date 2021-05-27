@@ -32,8 +32,6 @@ public class Book implements Comparable<Book>{
         return "Book{" +
                 "title='" + title + '\'' +
                 ", author=" + author +
-                ", releaseDate=" + releaseDate +
-                ", section=" + section +
                 '}';
     }
 

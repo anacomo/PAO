@@ -25,8 +25,6 @@ public class Reader extends Person{
         return "Reader{" +
                 "firstName='" + firstName + '\'' +
                 ", lastName='" + lastName + '\'' +
-                ", birthday=" + birthday +
-                ", registrationDate=" + registrationDate +
                 '}';
     }
 

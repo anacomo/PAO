@@ -30,7 +30,6 @@ public class Person implements Comparable<Person>{
         return "Person{" +
                 "firstName='" + firstName + '\'' +
                 ", lastName='" + lastName + '\'' +
-                ", birthday=" + birthday +
                 '}';
     }
 

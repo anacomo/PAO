@@ -1,5 +1,6 @@
 package Menu;
 
+import IO.Database;
 import IO.Input;
 import IO.Output;
 import Library.*;
@@ -9,7 +10,7 @@ import java.time.LocalDate;
 
 public class Menu {
     public static void main(String[] args) {
-        System.out.println("Hello, World!");
+        System.out.println("Hello! How you doin'?");
 
         Input.readAuthorsFromCsv();
         Input.readReadersFromCsv();
@@ -32,6 +33,7 @@ public class Menu {
 
         SectionService ss = SectionService.getInstance();
         ss.addSection(new Section("Drama"), false);
+        ss.addSection(new Section("Action"), false);
 //        ss.showSections();
 
         StudentService sts = StudentService.getInstance();
@@ -41,6 +43,10 @@ public class Menu {
         UniversityService us = UniversityService.getInstance();
         us.addUniversity(new University("University of Bristol"), false);
 //        us.showUniversities();
+
+        // database tryout
+        Database db = Database.getInstance();
+        db.handleTables();
 
     }
 }

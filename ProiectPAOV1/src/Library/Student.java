@@ -28,9 +28,6 @@ public class Student extends Reader{
         return "Student{" +
                 "firstName='" + firstName + '\'' +
                 ", lastName='" + lastName + '\'' +
-                ", birthday=" + birthday +
-                ", registrationDate=" + registrationDate +
-                ", university='" + university + '\'' +
                 '}';
     }
 

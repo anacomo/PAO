@@ -34,8 +34,6 @@ public class University implements Comparable<University>{
     public String toString() {
         return "University{" +
                 "name='" + name + '\'' +
-                ", dean=" + dean +
-                ", year=" + year +
                 '}';
     }
 

@@ -33,8 +33,8 @@ public class Input {
                         true);
             }
 
-            System.out.println("\nList of Authors: \n");
-            as.showAuthors();
+//            System.out.println("\nList of Authors: \n");
+//            as.showAuthors();
         } catch (IOException e) {
             e.printStackTrace();
         }
@@ -50,8 +50,8 @@ public class Input {
                 String [] fields = line.replaceAll(" ", "").split(",");
                 rs.addReader(new Reader(fields[0], fields[1], LocalDate.of(Integer.parseInt(fields[4]), Integer.parseInt(fields[3]), Integer.parseInt(fields[2]))), true);
             }
-            System.out.println("\nList of Readers: \n");
-            rs.showReaders();
+//            System.out.println("\nList of Readers: \n");
+//            rs.showReaders();
         } catch (IOException e) {
             e.printStackTrace();
         }
@@ -68,8 +68,8 @@ public class Input {
                 bs.addBook(new Book(fields[0], new Author(fields[1], fields[2], LocalDate.of(Integer.parseInt(fields[5]), Integer.parseInt(fields[4]), Integer.parseInt(fields[3])))), true);
             }
 
-            System.out.println("\nList of Books: \n");
-            bs.showBooks();
+//            System.out.println("\nList of Books: \n");
+//            bs.showBooks();
         } catch (IOException e) {
             e.printStackTrace();
         }
@@ -85,8 +85,8 @@ public class Input {
                 String [] fields = line.replaceAll(" ", "").split(",");
                 bs.addSection(new Section(fields[0]), true);
             }
-            System.out.println("\nList of Sections: \n");
-            bs.showSections();
+//            System.out.println("\nList of Sections: \n");
+//            bs.showSections();
         } catch (IOException e) {
             e.printStackTrace();
         }
@@ -102,8 +102,8 @@ public class Input {
                 String [] fields = line.replaceAll(" ", "").split(",");
                 bs.addStudent(new Student(fields[0], fields[1], LocalDate.of(Integer.parseInt(fields[4]), Integer.parseInt(fields[3]), Integer.parseInt(fields[2]))), true);
             }
-            System.out.println("\nList of Students: \n");
-            bs.showStudents();
+//            System.out.println("\nList of Students: \n");
+//            bs.showStudents();
         } catch (IOException e) {
             e.printStackTrace();
         }
@@ -120,8 +120,8 @@ public class Input {
                 bs.addUniversity(new University(fields[0]), true);
             }
 
-            System.out.println("\nList of Universities: \n");
-            bs.showUniversities();
+//            System.out.println("\nList of Universities: \n");
+//            bs.showUniversities();
         } catch (IOException e) {
             e.printStackTrace();
         }

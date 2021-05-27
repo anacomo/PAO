@@ -18,7 +18,6 @@ public class Author extends Person {
         return "Author{" +
                 "firstName='" + firstName + '\'' +
                 ", lastName='" + lastName + '\'' +
-                ", birthday=" + birthday +
                 '}';
     }
 
