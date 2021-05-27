@@ -35,3 +35,5 @@ b. Functionalities
 - [X] Sort Authors
 - [X] Sort Sections
 - [X] Sort Universities
+- [X] Edit Author / Book / University / Reader / Section / Student
+- [X] Delete Author / Book / University / Reader / Section / Student
